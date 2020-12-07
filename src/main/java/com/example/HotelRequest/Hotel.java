@@ -1,5 +1,10 @@
 package com.example.HotelRequest;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="hotel",catalog="mid_catalog")
 public class Hotel {
     private String Id;
     private String name;
